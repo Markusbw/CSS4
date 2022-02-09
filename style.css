@@ -1,0 +1,140 @@
+.font {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.lists {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 2px solid #B30000;
+    border-top: 2px solid #B30000;
+    border-left: 2px solid #B30000;
+    border-right: 2px solid #B30000;
+    
+}
+
+.li {
+    display: inline;
+    float: left;
+    border-right:1px solid white;
+}
+
+.herf {
+    display: block;
+    padding: 14px 16px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.herf:hover {
+    background-color: #B30000;
+}
+
+.diamond {
+    list-style-type: "\2666";
+}
+
+.footer {
+    margin-top: 100px;
+    border-top: 3px solid #B30000;
+    border-bottom: 3px solid #B30000;
+}
+.square {
+    list-style-type: square;
+}
+.copyright {
+    text-align: center;
+}
+
+.margin {
+    border: 2px dotted white;
+    color: black;
+    font-weight: bold;
+    font-family: "arial";
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    background-color: gray;
+    padding: 70px;
+}
+.border {
+    margin: 50px;
+    padding: 65px;
+    background-color: #009900;
+}
+.padding {
+    padding: 60px;
+    background-color: #009990;
+}
+.content {
+    padding: 50px;
+    background-color: #c5c5db;
+    border: 2px dotted black;
+}
+
+
+
+
+
+.table {
+    border: 2px solid white;
+}
+td {
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+.name {
+    background-color: brown;
+}
+.RGB {
+    background-color: rgb(105, 100, 155);
+}
+.HSL {
+    background-color: hsl(128, 80%, 25%)
+}
+.RGBA {
+    background-color: rgba(255, 0, 90, 1)
+}
+.HEX {
+    background-color: #123456
+}
+.HSLA {
+    background-color: HSLA(50, 100%,50%,1);
+
+}
+
+.p1 {
+    font-weight: bold;
+}
+
+.p2 {
+    color: blue;
+}
+
+.p3 {
+    text-align: center;
+}
+
+.p4 {
+    text-decoration: overline;
+}
+
+.p5 {
+    text-decoration:underline;
+}
+
+.p6 {
+    letter-spacing: 3px;
+}
+
+.p7 {
+    direction: rtl;
+}
+
+.p8 {
+    text-shadow: 3px 5px;
+}
